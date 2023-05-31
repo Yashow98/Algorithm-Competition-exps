@@ -11,7 +11,7 @@ int main()
 {
     int* stackAddr;
     int content;
-    stackAddr = ptr();
+    stackAddr = ptr();  // free memory, no access
     content = *stackAddr;
     printf("%d\n", content);
     content = *stackAddr;
